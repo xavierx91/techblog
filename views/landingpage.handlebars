@@ -1,0 +1,51 @@
+<div class="uk-cover-container uk-height-medium background " style="background-color:brown">
+  {{!-- <img src="/images/tp.jpeg" alt="" uk-cover /> --}}
+  <div class="uk-overlay uk-light uk-position-center-left background">
+    <h1 class="uk-heading-medium" style="color:darkblue">The tech blog</h1>
+  </div>
+</div>
+<!-- LOGIN BUTTON -->
+<button
+  class="uk-button uk-button-default uk-margin-small-right uk-width-1-1"
+  type="button"
+  uk-toggle="target: #offcanvas-usage">Login</button>
+<div id="offcanvas-usage" uk-offcanvas>
+  <div class="uk-offcanvas-bar">
+
+    <button class="uk-offcanvas-close" type="button" uk-close></button>
+    <div class="uk-container">
+      <form class="uk-margin-medium-top" id="login-form">
+        <fieldset class="uk-fieldset">
+          <div class="uk-margin">
+            <input
+              id="email-login"
+              class="uk-input"
+              type="text"
+              placeholder="Email"
+            />
+          </div>
+          <div class="uk-margin">
+            <input
+              id="password-login"
+              class="uk-input"
+              type="text"
+              placeholder="Password"
+            />
+          </div>
+          <button class="uk-button uk-button-default" id="login">Log In</button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+</div>
+<button
+  id="sign-up-button"
+  class="uk-button uk-button-default uk-margin-small-right uk-width-1-1"
+  type="button"
+>Sign Up</button>
+
+<script src="/js/login.js"></script>
+<script src="/js/signup.js"></script>
